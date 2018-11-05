@@ -1,0 +1,33 @@
+body {
+  background-image: url("./../img/background.png");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#Bitcoin {
+  background-image: url("./../img/bitcoin.png");
+}
+#Ethereum {
+  background-image: url("./../img/ethereum.png");
+}
+#Litecoin {
+  background-image: url("./../img/litecoin.png");
+}
+#ExhangeContainer {
+  width: 100%;
+  box-sizing: border-box;  /* не поддерживается в CSS2 */
+  margin-left: 0;
+  margin-right: 0;
+}
+.Coin {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 308px;
+  height: 384px;
+  background-size: cover;
+}
